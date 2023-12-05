@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C107129C2B1EC57F00FCDAE1 /* KietLTNotesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C107129B2B1EC57F00FCDAE1 /* KietLTNotesAppApp.swift */; };
+		C107129E2B1EC57F00FCDAE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C107129D2B1EC57F00FCDAE1 /* ContentView.swift */; };
+		C10712A02B1EC58100FCDAE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C107129F2B1EC58100FCDAE1 /* Assets.xcassets */; };
+		C10712A32B1EC58100FCDAE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C10712A22B1EC58100FCDAE1 /* Preview Assets.xcassets */; };
+		C10712AD2B1EC58200FCDAE1 /* KietLTNotesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10712AC2B1EC58200FCDAE1 /* KietLTNotesAppTests.swift */; };
+		C10712B72B1EC58200FCDAE1 /* KietLTNotesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10712B62B1EC58200FCDAE1 /* KietLTNotesAppUITests.swift */; };
+		C10712B92B1EC58200FCDAE1 /* KietLTNotesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10712B82B1EC58200FCDAE1 /* KietLTNotesAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C10712A92B1EC58200FCDAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C10712902B1EC57F00FCDAE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C10712972B1EC57F00FCDAE1;
+			remoteInfo = KietLTNotesApp;
+		};
+		C10712B32B1EC58200FCDAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C10712902B1EC57F00FCDAE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C10712972B1EC57F00FCDAE1;
+			remoteInfo = KietLTNotesApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C10712982B1EC57F00FCDAE1 /* KietLTNotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KietLTNotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C107129B2B1EC57F00FCDAE1 /* KietLTNotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KietLTNotesAppApp.swift; sourceTree = "<group>"; };
+		C107129D2B1EC57F00FCDAE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C107129F2B1EC58100FCDAE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C10712A22B1EC58100FCDAE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C10712A82B1EC58200FCDAE1 /* KietLTNotesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KietLTNotesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10712AC2B1EC58200FCDAE1 /* KietLTNotesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KietLTNotesAppTests.swift; sourceTree = "<group>"; };
+		C10712B22B1EC58200FCDAE1 /* KietLTNotesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KietLTNotesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10712B62B1EC58200FCDAE1 /* KietLTNotesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KietLTNotesAppUITests.swift; sourceTree = "<group>"; };
+		C10712B82B1EC58200FCDAE1 /* KietLTNotesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KietLTNotesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10712952B1EC57F00FCDAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10712A52B1EC58200FCDAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10712AF2B1EC58200FCDAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C107128F2B1EC57F00FCDAE1 = {
+			isa = PBXGroup;
+			children = (
+				C107129A2B1EC57F00FCDAE1 /* KietLTNotesApp */,
+				C10712AB2B1EC58200FCDAE1 /* KietLTNotesAppTests */,
+				C10712B52B1EC58200FCDAE1 /* KietLTNotesAppUITests */,
+				C10712992B1EC57F00FCDAE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C10712992B1EC57F00FCDAE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C10712982B1EC57F00FCDAE1 /* KietLTNotesApp.app */,
+				C10712A82B1EC58200FCDAE1 /* KietLTNotesAppTests.xctest */,
+				C10712B22B1EC58200FCDAE1 /* KietLTNotesAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C107129A2B1EC57F00FCDAE1 /* KietLTNotesApp */ = {
+			isa = PBXGroup;
+			children = (
+				C107129B2B1EC57F00FCDAE1 /* KietLTNotesAppApp.swift */,
+				C107129D2B1EC57F00FCDAE1 /* ContentView.swift */,
+				C107129F2B1EC58100FCDAE1 /* Assets.xcassets */,
+				C10712A12B1EC58100FCDAE1 /* Preview Content */,
+			);
+			path = KietLTNotesApp;
+			sourceTree = "<group>";
+		};
+		C10712A12B1EC58100FCDAE1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C10712A22B1EC58100FCDAE1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C10712AB2B1EC58200FCDAE1 /* KietLTNotesAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C10712AC2B1EC58200FCDAE1 /* KietLTNotesAppTests.swift */,
+			);
+			path = KietLTNotesAppTests;
+			sourceTree = "<group>";
+		};
+		C10712B52B1EC58200FCDAE1 /* KietLTNotesAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C10712B62B1EC58200FCDAE1 /* KietLTNotesAppUITests.swift */,
+				C10712B82B1EC58200FCDAE1 /* KietLTNotesAppUITestsLaunchTests.swift */,
+			);
+			path = KietLTNotesAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C10712972B1EC57F00FCDAE1 /* KietLTNotesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C10712BC2B1EC58200FCDAE1 /* Build configuration list for PBXNativeTarget "KietLTNotesApp" */;
+			buildPhases = (
+				C10712942B1EC57F00FCDAE1 /* Sources */,
+				C10712952B1EC57F00FCDAE1 /* Frameworks */,
+				C10712962B1EC57F00FCDAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KietLTNotesApp;
+			productName = KietLTNotesApp;
+			productReference = C10712982B1EC57F00FCDAE1 /* KietLTNotesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C10712A72B1EC58200FCDAE1 /* KietLTNotesAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C10712BF2B1EC58200FCDAE1 /* Build configuration list for PBXNativeTarget "KietLTNotesAppTests" */;
+			buildPhases = (
+				C10712A42B1EC58200FCDAE1 /* Sources */,
+				C10712A52B1EC58200FCDAE1 /* Frameworks */,
+				C10712A62B1EC58200FCDAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C10712AA2B1EC58200FCDAE1 /* PBXTargetDependency */,
+			);
+			name = KietLTNotesAppTests;
+			productName = KietLTNotesAppTests;
+			productReference = C10712A82B1EC58200FCDAE1 /* KietLTNotesAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C10712B12B1EC58200FCDAE1 /* KietLTNotesAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C10712C22B1EC58200FCDAE1 /* Build configuration list for PBXNativeTarget "KietLTNotesAppUITests" */;
+			buildPhases = (
+				C10712AE2B1EC58200FCDAE1 /* Sources */,
+				C10712AF2B1EC58200FCDAE1 /* Frameworks */,
+				C10712B02B1EC58200FCDAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C10712B42B1EC58200FCDAE1 /* PBXTargetDependency */,
+			);
+			name = KietLTNotesAppUITests;
+			productName = KietLTNotesAppUITests;
+			productReference = C10712B22B1EC58200FCDAE1 /* KietLTNotesAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C10712902B1EC57F00FCDAE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C10712972B1EC57F00FCDAE1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C10712A72B1EC58200FCDAE1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C10712972B1EC57F00FCDAE1;
+					};
+					C10712B12B1EC58200FCDAE1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C10712972B1EC57F00FCDAE1;
+					};
+				};
+			};
+			buildConfigurationList = C10712932B1EC57F00FCDAE1 /* Build configuration list for PBXProject "KietLTNotesApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C107128F2B1EC57F00FCDAE1;
+			productRefGroup = C10712992B1EC57F00FCDAE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C10712972B1EC57F00FCDAE1 /* KietLTNotesApp */,
+				C10712A72B1EC58200FCDAE1 /* KietLTNotesAppTests */,
+				C10712B12B1EC58200FCDAE1 /* KietLTNotesAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10712962B1EC57F00FCDAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10712A32B1EC58100FCDAE1 /* Preview Assets.xcassets in Resources */,
+				C10712A02B1EC58100FCDAE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10712A62B1EC58200FCDAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10712B02B1EC58200FCDAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10712942B1EC57F00FCDAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C107129E2B1EC57F00FCDAE1 /* ContentView.swift in Sources */,
+				C107129C2B1EC57F00FCDAE1 /* KietLTNotesAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10712A42B1EC58200FCDAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10712AD2B1EC58200FCDAE1 /* KietLTNotesAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10712AE2B1EC58200FCDAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10712B72B1EC58200FCDAE1 /* KietLTNotesAppUITests.swift in Sources */,
+				C10712B92B1EC58200FCDAE1 /* KietLTNotesAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C10712AA2B1EC58200FCDAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C10712972B1EC57F00FCDAE1 /* KietLTNotesApp */;
+			targetProxy = C10712A92B1EC58200FCDAE1 /* PBXContainerItemProxy */;
+		};
+		C10712B42B1EC58200FCDAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C10712972B1EC57F00FCDAE1 /* KietLTNotesApp */;
+			targetProxy = C10712B32B1EC58200FCDAE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C10712BA2B1EC58200FCDAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C10712BB2B1EC58200FCDAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C10712BD2B1EC58200FCDAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KietLTNotesApp/Preview Content\"";
+				DEVELOPMENT_TEAM = H3U3Q8S536;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.KietLTNotesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C10712BE2B1EC58200FCDAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KietLTNotesApp/Preview Content\"";
+				DEVELOPMENT_TEAM = H3U3Q8S536;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.KietLTNotesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C10712C02B1EC58200FCDAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3U3Q8S536;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.KietLTNotesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KietLTNotesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KietLTNotesApp";
+			};
+			name = Debug;
+		};
+		C10712C12B1EC58200FCDAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3U3Q8S536;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.KietLTNotesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KietLTNotesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KietLTNotesApp";
+			};
+			name = Release;
+		};
+		C10712C32B1EC58200FCDAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3U3Q8S536;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.KietLTNotesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KietLTNotesApp;
+			};
+			name = Debug;
+		};
+		C10712C42B1EC58200FCDAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3U3Q8S536;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.KietLTNotesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KietLTNotesApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C10712932B1EC57F00FCDAE1 /* Build configuration list for PBXProject "KietLTNotesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10712BA2B1EC58200FCDAE1 /* Debug */,
+				C10712BB2B1EC58200FCDAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C10712BC2B1EC58200FCDAE1 /* Build configuration list for PBXNativeTarget "KietLTNotesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10712BD2B1EC58200FCDAE1 /* Debug */,
+				C10712BE2B1EC58200FCDAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C10712BF2B1EC58200FCDAE1 /* Build configuration list for PBXNativeTarget "KietLTNotesAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10712C02B1EC58200FCDAE1 /* Debug */,
+				C10712C12B1EC58200FCDAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C10712C22B1EC58200FCDAE1 /* Build configuration list for PBXNativeTarget "KietLTNotesAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10712C32B1EC58200FCDAE1 /* Debug */,
+				C10712C42B1EC58200FCDAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C10712902B1EC57F00FCDAE1 /* Project object */;
+}
