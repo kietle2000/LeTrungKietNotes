@@ -1,0 +1,6 @@
+framework module Pods_KietLTNotesApp_KietLTNotesAppUITests {
+  umbrella header "Pods-KietLTNotesApp-KietLTNotesAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

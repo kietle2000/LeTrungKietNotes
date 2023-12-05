@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DB94DB846C296286B584C67 /* Pods_KietLTNotesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3B653F419CDEB4DB90E09B /* Pods_KietLTNotesApp.framework */; };
+		A5A5F05C8ED3D7B75F33AB8A /* Pods_KietLTNotesAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F43F3B95A4C274B3711BD39 /* Pods_KietLTNotesAppTests.framework */; };
 		C107129C2B1EC57F00FCDAE1 /* KietLTNotesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C107129B2B1EC57F00FCDAE1 /* KietLTNotesAppApp.swift */; };
 		C107129E2B1EC57F00FCDAE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C107129D2B1EC57F00FCDAE1 /* ContentView.swift */; };
 		C10712A02B1EC58100FCDAE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C107129F2B1EC58100FCDAE1 /* Assets.xcassets */; };
@@ -14,6 +16,13 @@
 		C10712AD2B1EC58200FCDAE1 /* KietLTNotesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10712AC2B1EC58200FCDAE1 /* KietLTNotesAppTests.swift */; };
 		C10712B72B1EC58200FCDAE1 /* KietLTNotesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10712B62B1EC58200FCDAE1 /* KietLTNotesAppUITests.swift */; };
 		C10712B92B1EC58200FCDAE1 /* KietLTNotesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10712B82B1EC58200FCDAE1 /* KietLTNotesAppUITestsLaunchTests.swift */; };
+		C10712CF2B1EDF7500FCDAE1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C10712CE2B1EDF7500FCDAE1 /* GoogleService-Info.plist */; };
+		C10712D22B1F03AB00FCDAE1 /* getNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10712D12B1F03AB00FCDAE1 /* getNotes.swift */; };
+		C10712D42B1F043400FCDAE1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10712D32B1F043400FCDAE1 /* Home.swift */; };
+		C10712D62B1F0DA600FCDAE1 /* ViewDidLoadModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10712D52B1F0DA600FCDAE1 /* ViewDidLoadModifier.swift */; };
+		C10712D82B1F0E7700FCDAE1 /* PopUpAddName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10712D72B1F0E7700FCDAE1 /* PopUpAddName.swift */; };
+		C10712DA2B1F194000FCDAE1 /* TabAboveCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10712D92B1F194000FCDAE1 /* TabAboveCustom.swift */; };
+		C3CE60BE1CC4BDF10F1E1D3F /* Pods_KietLTNotesApp_KietLTNotesAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2BB9B723C848FC8C0F2482 /* Pods_KietLTNotesApp_KietLTNotesAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1678D1F506FBD25E44CED992 /* Pods-KietLTNotesApp-KietLTNotesAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KietLTNotesApp-KietLTNotesAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-KietLTNotesApp-KietLTNotesAppUITests/Pods-KietLTNotesApp-KietLTNotesAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19D182BB73B18446828E399C /* Pods-KietLTNotesAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KietLTNotesAppTests.debug.xcconfig"; path = "Target Support Files/Pods-KietLTNotesAppTests/Pods-KietLTNotesAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B1A5539B1787FE8282E0D9D /* Pods-KietLTNotesApp-KietLTNotesAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KietLTNotesApp-KietLTNotesAppUITests.release.xcconfig"; path = "Target Support Files/Pods-KietLTNotesApp-KietLTNotesAppUITests/Pods-KietLTNotesApp-KietLTNotesAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37865EF185206B68C7F40783 /* Pods-KietLTNotesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KietLTNotesApp.debug.xcconfig"; path = "Target Support Files/Pods-KietLTNotesApp/Pods-KietLTNotesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3C2BB9B723C848FC8C0F2482 /* Pods_KietLTNotesApp_KietLTNotesAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KietLTNotesApp_KietLTNotesAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F43F3B95A4C274B3711BD39 /* Pods_KietLTNotesAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KietLTNotesAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAE2C09F60050489095A8FB /* Pods-KietLTNotesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KietLTNotesApp.release.xcconfig"; path = "Target Support Files/Pods-KietLTNotesApp/Pods-KietLTNotesApp.release.xcconfig"; sourceTree = "<group>"; };
+		AE3B653F419CDEB4DB90E09B /* Pods_KietLTNotesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KietLTNotesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4D17BE514639B2E2931BE3 /* Pods-KietLTNotesAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KietLTNotesAppTests.release.xcconfig"; path = "Target Support Files/Pods-KietLTNotesAppTests/Pods-KietLTNotesAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		C10712982B1EC57F00FCDAE1 /* KietLTNotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KietLTNotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C107129B2B1EC57F00FCDAE1 /* KietLTNotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KietLTNotesAppApp.swift; sourceTree = "<group>"; };
 		C107129D2B1EC57F00FCDAE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +62,12 @@
 		C10712B22B1EC58200FCDAE1 /* KietLTNotesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KietLTNotesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10712B62B1EC58200FCDAE1 /* KietLTNotesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KietLTNotesAppUITests.swift; sourceTree = "<group>"; };
 		C10712B82B1EC58200FCDAE1 /* KietLTNotesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KietLTNotesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C10712CE2B1EDF7500FCDAE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C10712D12B1F03AB00FCDAE1 /* getNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getNotes.swift; sourceTree = "<group>"; };
+		C10712D32B1F043400FCDAE1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C10712D52B1F0DA600FCDAE1 /* ViewDidLoadModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDidLoadModifier.swift; sourceTree = "<group>"; };
+		C10712D72B1F0E7700FCDAE1 /* PopUpAddName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpAddName.swift; sourceTree = "<group>"; };
+		C10712D92B1F194000FCDAE1 /* TabAboveCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabAboveCustom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB94DB846C296286B584C67 /* Pods_KietLTNotesApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A5F05C8ED3D7B75F33AB8A /* Pods_KietLTNotesAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +91,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CE60BE1CC4BDF10F1E1D3F /* Pods_KietLTNotesApp_KietLTNotesAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E8D33119A65F27D6CBAABEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE3B653F419CDEB4DB90E09B /* Pods_KietLTNotesApp.framework */,
+				3C2BB9B723C848FC8C0F2482 /* Pods_KietLTNotesApp_KietLTNotesAppUITests.framework */,
+				5F43F3B95A4C274B3711BD39 /* Pods_KietLTNotesAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA23625578F93E18FDF2DC3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37865EF185206B68C7F40783 /* Pods-KietLTNotesApp.debug.xcconfig */,
+				7FAE2C09F60050489095A8FB /* Pods-KietLTNotesApp.release.xcconfig */,
+				1678D1F506FBD25E44CED992 /* Pods-KietLTNotesApp-KietLTNotesAppUITests.debug.xcconfig */,
+				2B1A5539B1787FE8282E0D9D /* Pods-KietLTNotesApp-KietLTNotesAppUITests.release.xcconfig */,
+				19D182BB73B18446828E399C /* Pods-KietLTNotesAppTests.debug.xcconfig */,
+				AF4D17BE514639B2E2931BE3 /* Pods-KietLTNotesAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C107128F2B1EC57F00FCDAE1 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +128,8 @@
 				C10712AB2B1EC58200FCDAE1 /* KietLTNotesAppTests */,
 				C10712B52B1EC58200FCDAE1 /* KietLTNotesAppUITests */,
 				C10712992B1EC57F00FCDAE1 /* Products */,
+				BA23625578F93E18FDF2DC3C /* Pods */,
+				7E8D33119A65F27D6CBAABEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +146,16 @@
 		C107129A2B1EC57F00FCDAE1 /* KietLTNotesApp */ = {
 			isa = PBXGroup;
 			children = (
+				C10712D02B1F039600FCDAE1 /* Firebase */,
+				C10712CE2B1EDF7500FCDAE1 /* GoogleService-Info.plist */,
 				C107129B2B1EC57F00FCDAE1 /* KietLTNotesAppApp.swift */,
 				C107129D2B1EC57F00FCDAE1 /* ContentView.swift */,
 				C107129F2B1EC58100FCDAE1 /* Assets.xcassets */,
 				C10712A12B1EC58100FCDAE1 /* Preview Content */,
+				C10712D32B1F043400FCDAE1 /* Home.swift */,
+				C10712D52B1F0DA600FCDAE1 /* ViewDidLoadModifier.swift */,
+				C10712D72B1F0E7700FCDAE1 /* PopUpAddName.swift */,
+				C10712D92B1F194000FCDAE1 /* TabAboveCustom.swift */,
 			);
 			path = KietLTNotesApp;
 			sourceTree = "<group>";
@@ -127,6 +185,14 @@
 			path = KietLTNotesAppUITests;
 			sourceTree = "<group>";
 		};
+		C10712D02B1F039600FCDAE1 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				C10712D12B1F03AB00FCDAE1 /* getNotes.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C10712BC2B1EC58200FCDAE1 /* Build configuration list for PBXNativeTarget "KietLTNotesApp" */;
 			buildPhases = (
+				86B248C700B3D9FB407B7FD6 /* [CP] Check Pods Manifest.lock */,
 				C10712942B1EC57F00FCDAE1 /* Sources */,
 				C10712952B1EC57F00FCDAE1 /* Frameworks */,
 				C10712962B1EC57F00FCDAE1 /* Resources */,
+				C8695AECCF970CB947200025 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C10712BF2B1EC58200FCDAE1 /* Build configuration list for PBXNativeTarget "KietLTNotesAppTests" */;
 			buildPhases = (
+				C8AD13688CDB8131D15E7256 /* [CP] Check Pods Manifest.lock */,
 				C10712A42B1EC58200FCDAE1 /* Sources */,
 				C10712A52B1EC58200FCDAE1 /* Frameworks */,
 				C10712A62B1EC58200FCDAE1 /* Resources */,
@@ -169,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C10712C22B1EC58200FCDAE1 /* Build configuration list for PBXNativeTarget "KietLTNotesAppUITests" */;
 			buildPhases = (
+				7B60C7BC09578D8403A79BF5 /* [CP] Check Pods Manifest.lock */,
 				C10712AE2B1EC58200FCDAE1 /* Sources */,
 				C10712AF2B1EC58200FCDAE1 /* Frameworks */,
 				C10712B02B1EC58200FCDAE1 /* Resources */,
+				87D88D94C9C3268E59EB0DE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +304,7 @@
 			files = (
 				C10712A32B1EC58100FCDAE1 /* Preview Assets.xcassets in Resources */,
 				C10712A02B1EC58100FCDAE1 /* Assets.xcassets in Resources */,
+				C10712CF2B1EDF7500FCDAE1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +324,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B60C7BC09578D8403A79BF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KietLTNotesApp-KietLTNotesAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86B248C700B3D9FB407B7FD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KietLTNotesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87D88D94C9C3268E59EB0DE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KietLTNotesApp-KietLTNotesAppUITests/Pods-KietLTNotesApp-KietLTNotesAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KietLTNotesApp-KietLTNotesAppUITests/Pods-KietLTNotesApp-KietLTNotesAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KietLTNotesApp-KietLTNotesAppUITests/Pods-KietLTNotesApp-KietLTNotesAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8695AECCF970CB947200025 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KietLTNotesApp/Pods-KietLTNotesApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KietLTNotesApp/Pods-KietLTNotesApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KietLTNotesApp/Pods-KietLTNotesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AD13688CDB8131D15E7256 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KietLTNotesAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C10712942B1EC57F00FCDAE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C10712D62B1F0DA600FCDAE1 /* ViewDidLoadModifier.swift in Sources */,
+				C10712D82B1F0E7700FCDAE1 /* PopUpAddName.swift in Sources */,
 				C107129E2B1EC57F00FCDAE1 /* ContentView.swift in Sources */,
 				C107129C2B1EC57F00FCDAE1 /* KietLTNotesAppApp.swift in Sources */,
+				C10712DA2B1F194000FCDAE1 /* TabAboveCustom.swift in Sources */,
+				C10712D42B1F043400FCDAE1 /* Home.swift in Sources */,
+				C10712D22B1F03AB00FCDAE1 /* getNotes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,9 +591,11 @@
 		};
 		C10712BD2B1EC58200FCDAE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37865EF185206B68C7F40783 /* Pods-KietLTNotesApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KietLTNotesApp/Preview Content\"";
@@ -430,8 +612,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sd.KietLTNotesApp;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.KietLTNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,9 +623,11 @@
 		};
 		C10712BE2B1EC58200FCDAE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAE2C09F60050489095A8FB /* Pods-KietLTNotesApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KietLTNotesApp/Preview Content\"";
@@ -459,8 +644,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sd.KietLTNotesApp;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.KietLTNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,6 +655,7 @@
 		};
 		C10712C02B1EC58200FCDAE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D182BB73B18446828E399C /* Pods-KietLTNotesAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +676,7 @@
 		};
 		C10712C12B1EC58200FCDAE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4D17BE514639B2E2931BE3 /* Pods-KietLTNotesAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +697,7 @@
 		};
 		C10712C32B1EC58200FCDAE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1678D1F506FBD25E44CED992 /* Pods-KietLTNotesApp-KietLTNotesAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +716,7 @@
 		};
 		C10712C42B1EC58200FCDAE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1A5539B1787FE8282E0D9D /* Pods-KietLTNotesApp-KietLTNotesAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

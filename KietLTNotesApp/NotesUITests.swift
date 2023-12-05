@@ -5,16 +5,38 @@
 //  Created by Lê Kiệt on 12/5/23.
 //
 
-import SwiftUI
+import XCTest
 
-struct NotesUITests: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+class NotesUITests: XCTestCase {
+
+    override func setUp() {
+        // Put setup code here. This method is called before the invocation of each test method in the class.
+
+        // In UI tests it is usually best to stop immediately when a failure occurs.
+        continueAfterFailure = false
+
+        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
-}
 
-struct NotesUITests_Previews: PreviewProvider {
-    static var previews: some View {
-        NotesUITests()
+    override func tearDown() {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    }
+
+    func testExample() {
+        // UI tests must launch the application that they test.
+        let app = XCUIApplication()
+        app.launch()
+
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+
+    func testLaunchPerformance() {
+        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
+            // This measures how long it takes to launch your application.
+            measure(metrics: [XCTOSSignpostMetric.applicationLaunch]) {
+                XCUIApplication().launch()
+            }
+        }
     }
 }
