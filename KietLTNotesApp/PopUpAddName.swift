@@ -58,7 +58,7 @@ struct PopUpAddName: ViewModifier {
                     .background(Color.white)
                     .cornerRadius(12)
                 }
-                .edgesIgnoringSafeArea(.all) // Apply edgesIgnoringSafeArea modifier to the outer ZStack
+                .edgesIgnoringSafeArea(.all)
             }
         }
     }
